@@ -1,7 +1,7 @@
 import requests as rq
 
 user_input = input('Название города (eng): ')
-api_key = input('Ваш api ключ: ')
+api_key = 'a7c70218dfbfa3201806092417aa20cd'
 
 params = {
     'q' : user_input.lower(),
